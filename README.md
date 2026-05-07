@@ -194,10 +194,19 @@ This repository includes `render.yaml`.
 
 1. Push the repository to GitHub.
 2. Create a Render Blueprint from the repository.
-3. Set `APP_URL` to your deployed URL.
-4. Set `APP_SECRET` to a long random value.
-5. Optionally set Stripe and webhook variables.
-6. Attach persistent storage if you keep file-backed storage.
+3. Set `APP_SECRET` to a long random value of at least 32 characters.
+4. Set `APP_URL` to your deployed URL if Render does not fill it automatically.
+5. Set `CORS_ALLOWED_ORIGIN` to the same deployed URL.
+6. Optionally set Stripe and webhook variables.
+7. Attach persistent storage if you keep file-backed storage.
+
+If Render fails with `APP_SECRET must be at least 32 characters in production`,
+open the service in Render, go to **Environment**, add `APP_SECRET`, and choose
+**Save and deploy**. You can generate a safe value locally with:
+
+```bash
+node -e "console.log(require('node:crypto').randomBytes(32).toString('base64url'))"
+```
 
 ## Production Notes
 

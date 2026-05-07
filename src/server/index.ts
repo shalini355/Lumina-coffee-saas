@@ -465,7 +465,8 @@ function loadConfig(): AppConfig {
   const port = Number.parseInt(process.env.PORT || '3000', 10);
   const isProduction = process.env.NODE_ENV === 'production';
   const host = process.env.HOST || (isProduction ? '0.0.0.0' : 'localhost');
-  const appUrl = process.env.APP_URL || `http://localhost:${port}`;
+  const appUrl =
+    process.env.APP_URL || process.env.RENDER_EXTERNAL_URL || `http://localhost:${port}`;
   const appSecret = process.env.APP_SECRET || '';
 
   if (!Number.isFinite(port) || port <= 0) {
