@@ -1,5 +1,7 @@
 # Lumina Coffee Roasters SaaS
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/shalini355/Lumina-coffee-saas)
+
 Lumina Coffee Roasters is a production-ready coffee subscription SaaS built with React, Vite, Tailwind CSS, and Express. It includes a marketing site, dynamic content API, authentication, protected customer dashboard, subscription management, lead capture, and billing-ready endpoints.
 
 ## Features
