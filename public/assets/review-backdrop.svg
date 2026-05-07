@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 900" role="img" aria-label="Coffee tasting table backdrop">
+  <rect width="2000" height="900" fill="#120a05"/>
+  <radialGradient id="a" cx="50%" cy="45%" r="60%">
+    <stop offset="0" stop-color="#c08257" stop-opacity=".45"/>
+    <stop offset="1" stop-color="#120a05" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="2000" height="900" fill="url(#a)"/>
+  <g fill="#2a1811" opacity=".82">
+    <ellipse cx="350" cy="480" rx="210" ry="128"/>
+    <ellipse cx="980" cy="420" rx="260" ry="160"/>
+    <ellipse cx="1590" cy="520" rx="220" ry="135"/>
+  </g>
+  <g fill="#f4dac1" opacity=".82">
+    <ellipse cx="350" cy="458" rx="162" ry="86"/>
+    <ellipse cx="980" cy="394" rx="196" ry="105"/>
+    <ellipse cx="1590" cy="498" rx="168" ry="88"/>
+  </g>
+  <g fill="#4b2b1c">
+    <ellipse cx="350" cy="458" rx="124" ry="54"/>
+    <ellipse cx="980" cy="394" rx="150" ry="66"/>
+    <ellipse cx="1590" cy="498" rx="130" ry="56"/>
+  </g>
+</svg>

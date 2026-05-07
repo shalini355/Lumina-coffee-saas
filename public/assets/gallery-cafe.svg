@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Minimal coffee bar interior">
+  <rect width="800" height="1000" fill="#1a100c"/>
+  <rect y="0" width="800" height="420" fill="#3e2723"/>
+  <g fill="#c08257" opacity=".5">
+    <circle cx="145" cy="164" r="62"/>
+    <circle cx="402" cy="144" r="72"/>
+    <circle cx="656" cy="166" r="58"/>
+  </g>
+  <rect x="80" y="492" width="640" height="90" rx="6" fill="#c7a083"/>
+  <rect x="120" y="582" width="560" height="288" fill="#2a1811"/>
+  <rect x="165" y="630" width="130" height="166" fill="#4f8f61" opacity=".65"/>
+  <rect x="336" y="630" width="130" height="166" fill="#5a3523"/>
+  <rect x="507" y="630" width="130" height="166" fill="#4f8f61" opacity=".45"/>
+  <path d="M0 878h800v122H0Z" fill="#0f0907"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="Classic espresso">
+  <rect width="900" height="650" fill="#170c08"/>
+  <circle cx="685" cy="122" r="220" fill="#c08257" opacity=".18"/>
+  <rect x="210" y="150" width="410" height="285" rx="28" fill="#f4dac1"/>
+  <path d="M244 198h342l-44 178c-9 36-42 62-80 62H369c-38 0-71-26-80-62Z" fill="#2a1811"/>
+  <ellipse cx="415" cy="200" rx="175" ry="38" fill="#f8e7d2"/>
+  <ellipse cx="415" cy="200" rx="132" ry="21" fill="#5d3826"/>
+  <path d="M620 235h78c54 0 86 52 62 101-19 40-62 60-140 60v-48c49 0 76-9 88-29 12-21-3-43-31-43h-57Z" fill="#f4dac1"/>
+  <ellipse cx="442" cy="470" rx="292" ry="30" fill="#0b0604" opacity=".7"/>
+</svg>

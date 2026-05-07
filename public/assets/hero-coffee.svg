@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1200" role="img" aria-label="Premium coffee roastery counter with warm lighting">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#21120c"/>
+      <stop offset="0.48" stop-color="#5a3928"/>
+      <stop offset="1" stop-color="#0f0907"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="24%" r="55%">
+      <stop offset="0" stop-color="#f0c18d" stop-opacity=".65"/>
+      <stop offset=".55" stop-color="#c08257" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#0f0907" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="2000" height="1200" fill="url(#bg)"/>
+  <rect width="2000" height="1200" fill="url(#glow)"/>
+  <path d="M0 760c260-78 477-88 690-27 271 77 529 51 790-60 183-78 352-91 520-40v567H0Z" fill="#0f0907" opacity=".78"/>
+  <ellipse cx="1010" cy="744" rx="520" ry="96" fill="#070403" opacity=".55" filter="url(#soft)"/>
+  <path d="M625 590h670l-53 278c-12 63-69 108-136 108H815c-67 0-124-45-136-108Z" fill="#f1d4b8"/>
+  <path d="M679 622h564l-44 225c-9 48-51 82-100 82H822c-49 0-91-34-100-82Z" fill="#321d14"/>
+  <ellipse cx="960" cy="611" rx="336" ry="68" fill="#f7e2ca"/>
+  <ellipse cx="960" cy="611" rx="272" ry="38" fill="#4b2b1c"/>
+  <path d="M1290 665h115c87 0 142 83 106 159-29 62-95 94-221 94v-73c82 0 125-16 146-50 24-39-4-81-52-81h-94Z" fill="#f1d4b8"/>
+  <g stroke="#f6d7aa" stroke-width="18" stroke-linecap="round" opacity=".72">
+    <path d="M780 506c-36-56 26-83 0-141"/>
+    <path d="M956 500c-31-68 47-95 18-164"/>
+    <path d="M1130 506c-38-58 33-95 2-151"/>
+  </g>
+  <g fill="#1c0f0a" opacity=".62">
+    <ellipse cx="358" cy="894" rx="48" ry="30" transform="rotate(-26 358 894)"/>
+    <ellipse cx="1610" cy="842" rx="46" ry="28" transform="rotate(28 1610 842)"/>
+    <ellipse cx="1484" cy="948" rx="58" ry="34" transform="rotate(-17 1484 948)"/>
+    <ellipse cx="500" cy="993" rx="54" ry="32" transform="rotate(18 500 993)"/>
+  </g>
+</svg>

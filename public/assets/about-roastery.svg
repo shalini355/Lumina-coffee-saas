@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-label="Barista preparing coffee in a roastery">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a1811"/>
+      <stop offset="1" stop-color="#0f0907"/>
+    </linearGradient>
+    <linearGradient id="apron" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f8f61"/>
+      <stop offset="1" stop-color="#253827"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#wall)"/>
+  <rect y="0" width="900" height="360" fill="#3e2723" opacity=".45"/>
+  <g opacity=".28" stroke="#d8b28f" stroke-width="6">
+    <path d="M90 190h720M90 285h720M90 380h720"/>
+    <path d="M190 120v320M365 120v320M545 120v320M720 120v320"/>
+  </g>
+  <ellipse cx="450" cy="1034" rx="390" ry="70" fill="#070403" opacity=".62"/>
+  <path d="M260 492c0-121 91-211 197-211 112 0 202 90 202 211 0 80-42 132-93 164H353c-53-32-93-84-93-164Z" fill="#c8a181"/>
+  <circle cx="449" cy="375" r="106" fill="#e0b48f"/>
+  <path d="M328 333c48-98 202-111 262 2-84-34-171-28-262-2Z" fill="#21120c"/>
+  <path d="M286 649h330c47 0 86 36 90 82l37 370H159l37-370c4-46 43-82 90-82Z" fill="url(#apron)"/>
+  <path d="M310 671c80 76 206 77 284 0" fill="none" stroke="#e7f2e5" stroke-width="18" opacity=".45"/>
+  <rect x="178" y="820" width="544" height="96" rx="18" fill="#1a100c"/>
+  <ellipse cx="452" cy="818" rx="198" ry="34" fill="#f2d9bc"/>
+  <ellipse cx="452" cy="817" rx="155" ry="20" fill="#5a3928"/>
+  <path d="M650 815h72c47 0 76 45 56 86-16 34-52 51-128 51v-45c46 0 73-8 85-28 12-20-2-41-29-41h-56Z" fill="#f2d9bc"/>
+  <g fill="#c08257" opacity=".8">
+    <circle cx="146" cy="560" r="26"/>
+    <circle cx="756" cy="520" r="22"/>
+    <circle cx="714" cy="260" r="14"/>
+    <circle cx="172" cy="278" r="16"/>
+  </g>
+</svg>

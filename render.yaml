@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: lumina-coffee-roasters
+    env: node
+    plan: starter
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: npm run start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 8080
+      - key: APP_URL
+        sync: false
+      - key: APP_SECRET
+        generateValue: true
+      - key: CORS_ALLOWED_ORIGIN
+        sync: false
+      - key: DATA_DIR
+        value: /var/data/lumina
+      - key: LEAD_NOTIFICATION_WEBHOOK_URL
+        sync: false
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: STRIPE_PRICE_ID
+        sync: false

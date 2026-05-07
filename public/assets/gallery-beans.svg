@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Roasted coffee beans">
+  <rect width="800" height="1000" fill="#120a05"/>
+  <g fill="#5a3523">
+    <ellipse cx="150" cy="170" rx="86" ry="132" transform="rotate(-32 150 170)"/>
+    <ellipse cx="340" cy="260" rx="96" ry="144" transform="rotate(24 340 260)"/>
+    <ellipse cx="610" cy="190" rx="92" ry="136" transform="rotate(-18 610 190)"/>
+    <ellipse cx="205" cy="570" rx="110" ry="154" transform="rotate(19 205 570)"/>
+    <ellipse cx="530" cy="602" rx="124" ry="170" transform="rotate(-31 530 602)"/>
+    <ellipse cx="370" cy="850" rx="98" ry="142" transform="rotate(36 370 850)"/>
+  </g>
+  <g fill="none" stroke="#c08257" stroke-width="13" stroke-linecap="round" opacity=".55">
+    <path d="M140 76c44 82 50 153 17 245"/>
+    <path d="M350 150c-35 83-29 159 23 231"/>
+    <path d="M596 76c38 78 45 148 17 228"/>
+    <path d="M208 443c-30 88-15 175 45 261"/>
+    <path d="M520 450c46 95 46 189 2 282"/>
+    <path d="M382 742c-41 78-35 151 18 219"/>
+  </g>
+</svg>

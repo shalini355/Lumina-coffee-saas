@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="Velvet cappuccino">
+  <rect width="900" height="650" fill="#20120c"/>
+  <path d="M0 470c171-68 314-74 469-20 152 53 278 50 431-18v218H0Z" fill="#0f0907"/>
+  <rect x="160" y="170" width="510" height="300" rx="34" fill="#ead0b5"/>
+  <ellipse cx="416" cy="182" rx="254" ry="58" fill="#fff0de"/>
+  <ellipse cx="416" cy="185" rx="196" ry="34" fill="#b57c55"/>
+  <path d="M278 185c74 45 160 47 267 0-38 76-229 84-267 0Z" fill="#fff5e8" opacity=".75"/>
+  <path d="M670 245h78c55 0 89 52 66 102-22 48-72 72-144 72v-52c48 0 78-13 92-39 10-20-4-41-32-41h-60Z" fill="#ead0b5"/>
+  <g fill="#f1c597" opacity=".55">
+    <circle cx="118" cy="144" r="18"/>
+    <circle cx="743" cy="128" r="26"/>
+    <circle cx="797" cy="468" r="15"/>
+  </g>
+</svg>

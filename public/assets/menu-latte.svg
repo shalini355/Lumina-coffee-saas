@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="Vanilla latte">
+  <rect width="900" height="650" fill="#120a05"/>
+  <rect x="275" y="120" width="350" height="415" rx="56" fill="#f0d4b9"/>
+  <rect x="305" y="168" width="290" height="315" rx="38" fill="#6b402b"/>
+  <path d="M308 248h286v106c-87 52-189 52-286 0Z" fill="#d5a36f" opacity=".9"/>
+  <ellipse cx="450" cy="170" rx="168" ry="50" fill="#fff1df"/>
+  <path d="M357 172c42-34 87-34 136 0 30 20 55 18 83-4-32 75-181 83-219 4Z" fill="#b9855f"/>
+  <path d="M220 535h460" stroke="#2b1810" stroke-width="36" stroke-linecap="round"/>
+  <g stroke="#e8c59c" stroke-width="14" stroke-linecap="round" opacity=".55">
+    <path d="M345 80c-25-38 24-58 0-92"/>
+    <path d="M453 80c-25-46 33-68 6-110"/>
+    <path d="M555 80c-25-38 24-58 0-92"/>
+  </g>
+</svg>
