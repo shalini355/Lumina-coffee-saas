@@ -12,6 +12,7 @@ type AppConfig = {
   corsAllowedOrigins: string[];
   dataDir: string;
   isProduction: boolean;
+  host: string;
   port: number;
   stripePriceId?: string;
   stripeSecretKey?: string;
@@ -452,7 +453,7 @@ app.use(
   },
 );
 
-app.listen(config.port, () => {
+app.listen(config.port, config.host, () => {
   console.log(
     `Lumina Coffee Roasters listening on ${config.appUrl} in ${
       config.isProduction ? 'production' : 'development'
@@ -463,6 +464,7 @@ app.listen(config.port, () => {
 function loadConfig(): AppConfig {
   const port = Number.parseInt(process.env.PORT || '3000', 10);
   const isProduction = process.env.NODE_ENV === 'production';
+  const host = process.env.HOST || (isProduction ? '0.0.0.0' : 'localhost');
   const appUrl = process.env.APP_URL || `http://localhost:${port}`;
   const appSecret = process.env.APP_SECRET || '';
 
@@ -489,6 +491,7 @@ function loadConfig(): AppConfig {
     appUrl,
     corsAllowedOrigins: [...new Set(corsAllowedOrigins)],
     dataDir: path.resolve(process.env.DATA_DIR || 'data'),
+    host,
     isProduction,
     port,
     stripePriceId: process.env.STRIPE_PRICE_ID || undefined,

@@ -1,16 +1,17 @@
 services:
   - type: web
     name: lumina-coffee-roasters
-    env: node
+    runtime: node
     plan: starter
+    region: singapore
     buildCommand: npm ci --include=dev && npm run build
     startCommand: npm run start
     healthCheckPath: /healthz
     envVars:
       - key: NODE_ENV
         value: production
-      - key: PORT
-        value: 8080
+      - key: HOST
+        value: 0.0.0.0
       - key: APP_URL
         sync: false
       - key: APP_SECRET
@@ -25,3 +26,7 @@ services:
         sync: false
       - key: STRIPE_PRICE_ID
         sync: false
+    disk:
+      name: lumina-data
+      mountPath: /var/data
+      sizeGB: 5
