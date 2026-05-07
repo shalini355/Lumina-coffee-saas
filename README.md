@@ -211,4 +211,4 @@ This project is deployable as a SaaS starter. Before using it for serious produc
 
 ## License
 
-This project is available for learning, customization, and client deployment. Add your preferred license before publishing publicly.
+This project is licensed under the MIT License.
